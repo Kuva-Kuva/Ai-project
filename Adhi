@@ -1,0 +1,32 @@
+# 🫀 Cardiovascular Disease Prediction using Machine Learning
+
+This project uses machine learning (Random Forest Classifier) to predict the presence of cardiovascular disease from patient medical data. The implementation is done using Python in Google Colab, and the dataset is sourced from Kaggle.
+
+## 📊 Dataset
+
+- **Source**: [Kaggle - Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
+- Features include age, gender, blood pressure, cholesterol, glucose levels, etc.
+- Target variable: `cardio` (1 = presence of disease, 0 = absence)
+
+## 🚀 Project Workflow
+
+1. Load dataset via Kaggle API
+2. Preprocess data (drop ID, scale features)
+3. Split data into training and testing sets
+4. Train a Random Forest Classifier
+5. Evaluate model performance using accuracy and classification metrics
+
+## 🛠️ Technologies Used
+
+- Python
+- Google Colahi
+- pandas, numpy
+- scikit-learn
+- Kaggle API
+
+## ✅ Results
+
+Achieved ~73% accuracy with balanced precision and recall on test data.
+
+## 📂 File Structure
+
